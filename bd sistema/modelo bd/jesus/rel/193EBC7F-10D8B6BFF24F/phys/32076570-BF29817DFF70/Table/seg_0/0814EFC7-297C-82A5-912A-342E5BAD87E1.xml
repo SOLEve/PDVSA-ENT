@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Ubicacion" id="0814EFC7-297C-82A5-912A-342E5BAD87E1" directorySegmentName="seg_0">
+   <createdBy>TEMPORAL</createdBy>
+   <createdTime>2013-05-08 13:45:26 UTC</createdTime>
+   <changedBy>TEMPORAL</changedBy>
+   <changedTime>2013-05-08 13:46:00 UTC</changedTime>
+   <ownerDesignName>jesus</ownerDesignName>
+   <logging>YES</logging>
+   <columnProxies>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Nombre_Ubicacion" id="155A582E-8B5A-5C60-1815-78F098814237">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:46:00 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:46:00 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ID_Ubicacion" id="8056E5E6-21F1-3426-37CB-737CD6E9E9B4">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:46:00 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:46:00 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ColumnProxy>
+   </columnProxies>
+   <primaryKeys>
+      <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Ubicacion_PK" id="709B8164-28F5-6677-4AAD-D86C9E4ED033">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:46:00 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:46:00 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <indexSort>NO</indexSort>
+      </PrimaryKey>
+   </primaryKeys>
+</TableProxyOraclev11g>

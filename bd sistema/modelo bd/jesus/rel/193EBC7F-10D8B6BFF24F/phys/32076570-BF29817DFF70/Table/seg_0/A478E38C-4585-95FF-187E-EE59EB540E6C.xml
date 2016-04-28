@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Conductor" id="A478E38C-4585-95FF-187E-EE59EB540E6C" directorySegmentName="seg_0">
+   <createdBy>TEMPORAL</createdBy>
+   <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+   <changedBy>TEMPORAL</changedBy>
+   <changedTime>2013-05-08 13:31:11 UTC</changedTime>
+   <ownerDesignName>jesus</ownerDesignName>
+   <logging>YES</logging>
+   <columnProxies>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Apellido" id="52ADE1D6-DD2E-B95A-5534-E6CD5455C6A0">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <defaultValue>NULL</defaultValue>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Telefono" id="85D69117-65C2-D659-18BE-CA0CF8617BF0">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <defaultValue>NULL</defaultValue>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ID_Conductor" id="9C459C51-7209-BBEF-31EA-E4A8607CD8B1">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="foto" id="A0889C1C-27BF-AB03-9E95-17190300E7F7">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <defaultValue>NULL</defaultValue>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Nombre" id="ACCC63BA-AFC6-C869-CA15-2BDA2540D950">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <defaultValue>NULL</defaultValue>
+      </ColumnProxy>
+   </columnProxies>
+   <primaryKeys>
+      <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="IFv6_PK" id="127C4B0D-58AB-FF8B-BD58-3C0612C7CD4E">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>bd_gtr</ownerDesignName>
+         <indexSort>NO</indexSort>
+      </PrimaryKey>
+      <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Conductor_PK" id="C43243D0-7854-6697-2587-197216B074BF">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:31:11 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:31:11 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <indexSort>NO</indexSort>
+      </PrimaryKey>
+   </primaryKeys>
+</TableProxyOraclev11g>

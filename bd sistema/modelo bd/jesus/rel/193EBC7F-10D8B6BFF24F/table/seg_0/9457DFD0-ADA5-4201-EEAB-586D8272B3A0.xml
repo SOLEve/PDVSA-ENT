@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="9457DFD0-ADA5-4201-EEAB-586D8272B3A0" directorySegmentName="seg_0" name="Estado">
+   <createdBy>TEMPORAL</createdBy>
+   <createdTime>2013-05-08 13:12:17 UTC</createdTime>
+   <changedBy>TEMPORAL</changedBy>
+   <changedTime>2013-05-08 14:06:58 UTC</changedTime>
+   <ownerDesignName>jesus</ownerDesignName>
+   <importedID>0FDCF125-53E4-3881-5786-74DE48F5D022</importedID>
+   <pkName>IFv9_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID_Edo" id="9896932F-8735-C886-E404-54446EE5CAB1">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:17 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:06:56 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <importedID>B340E87D-FA83-9633-8F3A-1682F2975903</importedID>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <domain>A0481FD4-C5CA-7835-3E01-A80924B36982</domain>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Nombre_Edo" id="E43933E3-F7BC-0A90-EF3D-50EBDF5A90D6">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:17 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:06:56 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <importedID>DB903FAF-D7FD-560A-E54B-050BFF44865C</importedID>
+         <nullsAllowed>true</nullsAllowed>
+         <defaultValue>NULL</defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50</dataTypeSize>
+         <domain>4A80F376-8321-F4AF-5DA4-039EE0A77370</domain>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="CA669823-A737-4858-61A1-420E50D2F99D" name="Estado_PK">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 14:06:58 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:06:58 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="9896932F-8735-C886-E404-54446EE5CAB1"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

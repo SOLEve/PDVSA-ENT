@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Condicion_Chuto" id="01C30F17-374A-61AD-87F9-A92D3FA41261" directorySegmentName="seg_0">
+   <createdBy>TEMPORAL</createdBy>
+   <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+   <changedBy>TEMPORAL</changedBy>
+   <changedTime>2013-05-08 13:27:45 UTC</changedTime>
+   <ownerDesignName>jesus</ownerDesignName>
+   <logging>YES</logging>
+   <columnProxies>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ID_Condicion" id="59447445-1753-B12F-5B65-C1AE25379F31">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Nombre_Cond" id="E0949048-8DA1-C848-45D9-FADAE11B9FB9">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <defaultValue>NULL</defaultValue>
+      </ColumnProxy>
+   </columnProxies>
+   <primaryKeys>
+      <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Condicion_Chuto_PK" id="0B020112-B3A0-DB61-4DF2-FAC6421F011C">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:27:45 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:27:45 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <indexSort>NO</indexSort>
+      </PrimaryKey>
+      <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="IFv5_PK" id="93BB611A-0AAE-2F6D-B17F-504A954A6A06">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>bd_gtr</ownerDesignName>
+         <indexSort>NO</indexSort>
+      </PrimaryKey>
+   </primaryKeys>
+</TableProxyOraclev11g>

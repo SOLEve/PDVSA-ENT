@@ -1,0 +1,42 @@
+/*************** Reset ******************/
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+a {
+	color: #999113;
+	text-decoration: none;
+}
+a:hover, a:focus {
+	color: #7B750E;
+	text-decoration: underline;
+}
+
+
+/*************** Header *****************/
+header {
+	background: #4E4E4E;
+	color: #fff;
+	padding: 5px 20px;
+	margin: 0;
+	text-align: center;
+	display: block;			
+}
+
+header > a {			
+	color: #FFF;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+header > a:hover {	
+	color: #57B;
+}
+
+/*************** Wrapper *****************/
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}

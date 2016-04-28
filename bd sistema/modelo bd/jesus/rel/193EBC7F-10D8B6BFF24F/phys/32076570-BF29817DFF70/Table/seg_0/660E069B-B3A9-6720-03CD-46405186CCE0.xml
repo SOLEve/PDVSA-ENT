@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Municipio" id="660E069B-B3A9-6720-03CD-46405186CCE0" directorySegmentName="seg_0">
+   <createdBy>TEMPORAL</createdBy>
+   <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+   <changedBy>TEMPORAL</changedBy>
+   <changedTime>2013-05-08 14:04:27 UTC</changedTime>
+   <ownerDesignName>jesus</ownerDesignName>
+   <logging>YES</logging>
+   <columnProxies>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ID_Mcpio" id="285E0C5C-E7D2-13B4-10B8-18A241D2A5DF">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Nombre_Mcpio" id="EAFC7F8A-FC1A-8A7E-CE67-1BDED640D78E">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <defaultValue>NULL</defaultValue>
+      </ColumnProxy>
+   </columnProxies>
+   <primaryKeys>
+      <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="IFv16_PK" id="2982FC3D-81BB-839C-8FF2-D1B3A58EA558">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <indexSort>NO</indexSort>
+      </PrimaryKey>
+      <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Municipio_PK" id="A47CB50A-FA19-CC7C-8CAB-FA7C3AB1DAA2">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 14:04:27 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:04:27 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <indexSort>NO</indexSort>
+      </PrimaryKey>
+   </primaryKeys>
+</TableProxyOraclev11g>

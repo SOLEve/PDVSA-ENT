@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="A478E38C-4585-95FF-187E-EE59EB540E6C" directorySegmentName="seg_0" name="Conductor">
+   <createdBy>TEMPORAL</createdBy>
+   <createdTime>2013-05-08 13:12:17 UTC</createdTime>
+   <changedBy>TEMPORAL</changedBy>
+   <changedTime>2013-05-08 13:31:11 UTC</changedTime>
+   <ownerDesignName>jesus</ownerDesignName>
+   <importedID>4A390D5B-505B-8021-FD17-A62CF211CF07</importedID>
+   <pkName>IFv6_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID_Conductor" id="9C459C51-7209-BBEF-31EA-E4A8607CD8B1">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:17 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:30:15 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <importedID>D16C313F-A475-5260-AA80-B2ECFC7F33CE</importedID>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <domain>A0481FD4-C5CA-7835-3E01-A80924B36982</domain>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Nombre" id="ACCC63BA-AFC6-C869-CA15-2BDA2540D950">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:17 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:30:15 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <importedID>4F6D002B-D0D4-A75D-3AE3-E7266D1A18CC</importedID>
+         <nullsAllowed>true</nullsAllowed>
+         <defaultValue>NULL</defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50</dataTypeSize>
+         <domain>F61EB7BD-03FC-04F2-534D-BC498125195D</domain>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Apellido" id="52ADE1D6-DD2E-B95A-5534-E6CD5455C6A0">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:17 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:31:09 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <importedID>C92F92FB-8518-7A1A-6B00-4E241A06A3DC</importedID>
+         <nullsAllowed>true</nullsAllowed>
+         <defaultValue>NULL</defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20</dataTypeSize>
+         <domain>F61EB7BD-03FC-04F2-534D-BC498125195D</domain>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Telefono" id="85D69117-65C2-D659-18BE-CA0CF8617BF0">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:17 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:31:09 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <importedID>87F2B639-848B-2D81-9008-CF3919B9AFBA</importedID>
+         <nullsAllowed>true</nullsAllowed>
+         <defaultValue>NULL</defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20</dataTypeSize>
+         <domain>F61EB7BD-03FC-04F2-534D-BC498125195D</domain>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="foto" id="A0889C1C-27BF-AB03-9E95-17190300E7F7">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:17 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:31:09 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <importedID>4D6A4B5C-C8F6-73CF-A3FD-FDDBD47832B5</importedID>
+         <nullsAllowed>true</nullsAllowed>
+         <defaultValue>NULL</defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>200</dataTypeSize>
+         <domain>03AB47BB-3345-C3DF-6C52-1DB626D52469</domain>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="C43243D0-7854-6697-2587-197216B074BF" name="Conductor_PK">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:31:11 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:31:11 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="9C459C51-7209-BBEF-31EA-E4A8607CD8B1"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

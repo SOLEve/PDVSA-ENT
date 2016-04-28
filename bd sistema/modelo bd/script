@@ -1,0 +1,605 @@
+CREATE TABLE CH_CD 
+    ( 
+     Conductor_ID_Conductor INTEGER  NOT NULL , 
+     Chuto_Placal_Chuto VARCHAR (50)  NOT NULL 
+    ) 
+;
+
+
+
+ALTER TABLE CH_CD 
+    ADD CONSTRAINT CH_CD_PK PRIMARY KEY ( Conductor_ID_Conductor, Chuto_Placal_Chuto ) ;
+
+
+CREATE TABLE Chuto 
+    ( 
+     Placal_Chuto VARCHAR (50)  NOT NULL , 
+     Serial_Carroceria VARCHAR (50) DEFAULT 'NULL' , 
+     Serial_Motor VARCHAR (50) DEFAULT 'NULL' , 
+     Modelo VARCHAR (50) DEFAULT 'NULL' , 
+     foto_chuto VARCHAR (250) DEFAULT 'NULL' , 
+     Km_recorridos double DEFAULT NULL , 
+     Observaciones VARCHAR (250) , 
+     Unidad VARCHAR (10) , 
+     Marca_Chuto_ID_Marca INTEGER  NOT NULL , 
+     Condicion_Chuto_ID_Condicion INTEGER  NOT NULL , 
+     Flota_ID_Flota INTEGER  NOT NULL , 
+     Ubicacion_ID_Ubicacion INTEGER  NOT NULL , 
+     Estatus_ID_Estatus INTEGER  NOT NULL 
+    ) 
+;
+
+
+
+ALTER TABLE Chuto 
+    ADD CONSTRAINT Chuto_PK PRIMARY KEY ( Placal_Chuto ) ;
+
+
+CREATE TABLE Ciudad 
+    ( 
+     ID_Ciudad INTEGER  NOT NULL , 
+     Nombre_Ciudad VARCHAR (50) DEFAULT 'NULL' 
+    ) 
+;
+
+
+
+ALTER TABLE Ciudad 
+    ADD CONSTRAINT Ciudad_PK PRIMARY KEY ( ID_Ciudad ) ;
+
+
+CREATE TABLE Cliente 
+    ( 
+     ID_Cli INTEGER  NOT NULL , 
+     Nombre_Cli VARCHAR (100) DEFAULT 'NULL' , 
+     RIF_Cli VARCHAR (50) DEFAULT 'NULL' , 
+     Razon_Social_Cli VARCHAR (50) DEFAULT 'NULL' , 
+     Direccion_Cli VARCHAR (100) DEFAULT 'NULL' , 
+     Telefono_Cli VARCHAR (20) DEFAULT 'NULL' , 
+     Distancia_Cli double DEFAULT NULL , 
+     Tiempo_Cli double DEFAULT NULL , 
+     Tipo_Cliente_ID_Tipo INTEGER  NOT NULL , 
+     Distrito_ID_Dtto INTEGER  NOT NULL , 
+     Mayorista_ID_Mayorista INTEGER  NOT NULL , 
+     Estado_ID_Edo INTEGER  NOT NULL , 
+     Zona_Com_ID_Zona INTEGER  NOT NULL , 
+     Ciudad_ID_Ciudad INTEGER  NOT NULL , 
+     Municipio_ID_Mcpio INTEGER  NOT NULL , 
+     Sede_ID_Sede INTEGER  NOT NULL , 
+     Lat VARCHAR (20) , 
+     Lon VARCHAR (20) 
+    ) 
+;
+
+
+
+ALTER TABLE Cliente 
+    ADD CONSTRAINT Cliente_PK PRIMARY KEY ( ID_Cli ) ;
+
+
+CREATE TABLE Condicion_Chuto 
+    ( 
+     ID_Condicion INTEGER  NOT NULL , 
+     Nombre_Cond VARCHAR (20) DEFAULT 'NULL' 
+    ) 
+;
+
+
+
+ALTER TABLE Condicion_Chuto 
+    ADD CONSTRAINT Condicion_Chuto_PK PRIMARY KEY ( ID_Condicion ) ;
+
+
+CREATE TABLE Conductor 
+    ( 
+     ID_Conductor INTEGER  NOT NULL , 
+     Nombre VARCHAR (50) DEFAULT 'NULL' , 
+     Apellido VARCHAR (20) DEFAULT 'NULL' , 
+     Telefono VARCHAR (20) DEFAULT 'NULL' , 
+     foto VARCHAR (200) DEFAULT 'NULL' 
+    ) 
+;
+
+
+
+ALTER TABLE Conductor 
+    ADD CONSTRAINT Conductor_PK PRIMARY KEY ( ID_Conductor ) ;
+
+
+CREATE TABLE Departamento 
+    ( 
+     ID_Dpto INTEGER  NOT NULL , 
+     Nombre_Dpto VARCHAR (50) DEFAULT 'NULL' , 
+     Sede VARCHAR (50) DEFAULT 'NULL' 
+    ) 
+;
+
+
+
+ALTER TABLE Departamento 
+    ADD CONSTRAINT Departamento_PK PRIMARY KEY ( ID_Dpto ) ;
+
+
+CREATE TABLE Distrito 
+    ( 
+     ID_Dtto INTEGER  NOT NULL , 
+     Nombre_Dtto VARCHAR (50) DEFAULT 'NULL' 
+    ) 
+;
+
+
+
+ALTER TABLE Distrito 
+    ADD CONSTRAINT Distrito_PK PRIMARY KEY ( ID_Dtto ) ;
+
+
+CREATE TABLE Estado 
+    ( 
+     ID_Edo INTEGER  NOT NULL , 
+     Nombre_Edo VARCHAR (50) DEFAULT 'NULL' 
+    ) 
+;
+
+
+
+ALTER TABLE Estado 
+    ADD CONSTRAINT Estado_PK PRIMARY KEY ( ID_Edo ) ;
+
+
+CREATE TABLE Estatus 
+    ( 
+     ID_Estatus INTEGER  NOT NULL , 
+     Nombre_Estatus VARCHAR (100) 
+    ) 
+;
+
+
+
+ALTER TABLE Estatus 
+    ADD CONSTRAINT Estatus_PK PRIMARY KEY ( ID_Estatus ) ;
+
+
+CREATE TABLE Flota 
+    ( 
+     ID_Flota INTEGER  NOT NULL , 
+     Nombre_Flota VARCHAR (50) DEFAULT 'NULL' 
+    ) 
+;
+
+
+
+ALTER TABLE Flota 
+    ADD CONSTRAINT Flota_PK PRIMARY KEY ( ID_Flota ) ;
+
+
+CREATE TABLE Km_cond 
+    ( 
+     Fecha_km DATE , 
+     Km_cond double , 
+     Num_Desp double  NOT NULL , 
+     Conductor_ID_Conductor INTEGER  NOT NULL 
+    ) 
+;
+
+
+
+ALTER TABLE Km_cond 
+    ADD CONSTRAINT Km_cond_PK PRIMARY KEY ( Num_Desp ) ;
+
+
+CREATE TABLE Marca_Chuto 
+    ( 
+     ID_Marca INTEGER  NOT NULL , 
+     Nombre_Marca VARCHAR (50) DEFAULT 'NULL' 
+    ) 
+;
+
+
+
+ALTER TABLE Marca_Chuto 
+    ADD CONSTRAINT Marca_Chuto_PK PRIMARY KEY ( ID_Marca ) ;
+
+
+CREATE TABLE Mayorista 
+    ( 
+     ID_Mayorista INTEGER  NOT NULL , 
+     Nombre_May VARCHAR (100) DEFAULT 'NULL' 
+    ) 
+;
+
+
+
+ALTER TABLE Mayorista 
+    ADD CONSTRAINT Mayorista_PK PRIMARY KEY ( ID_Mayorista ) ;
+
+
+CREATE TABLE Municipio 
+    ( 
+     ID_Mcpio INTEGER  NOT NULL , 
+     Nombre_Mcpio VARCHAR (50) DEFAULT 'NULL' 
+    ) 
+;
+
+
+
+ALTER TABLE Municipio 
+    ADD CONSTRAINT Municipio_PK PRIMARY KEY ( ID_Mcpio ) ;
+
+
+CREATE TABLE Rol 
+    ( 
+     ID_Rol INTEGER  NOT NULL , 
+     Nombre_Rol VARCHAR (50) DEFAULT 'NULL' 
+    ) 
+;
+
+
+
+ALTER TABLE Rol 
+    ADD CONSTRAINT Rol_PK PRIMARY KEY ( ID_Rol ) ;
+
+
+CREATE TABLE Sede 
+    ( 
+     ID_Sede INTEGER  NOT NULL , 
+     Nombre_Sede VARCHAR (50) DEFAULT 'NULL' 
+    ) 
+;
+
+
+
+ALTER TABLE Sede 
+    ADD CONSTRAINT Sede_PK PRIMARY KEY ( ID_Sede ) ;
+
+
+CREATE TABLE Tipo_Cliente 
+    ( 
+     ID_Tipo INTEGER  NOT NULL , 
+     Nombre_Tipo VARCHAR (50) DEFAULT 'NULL' 
+    ) 
+;
+
+
+
+ALTER TABLE Tipo_Cliente 
+    ADD CONSTRAINT Tipo_Cliente_PK PRIMARY KEY ( ID_Tipo ) ;
+
+
+CREATE TABLE Ubicacion 
+    ( 
+     ID_Ubicacion INTEGER  NOT NULL , 
+     Nombre_Ubicacion VARCHAR (50) 
+    ) 
+;
+
+
+
+ALTER TABLE Ubicacion 
+    ADD CONSTRAINT Ubicacion_PK PRIMARY KEY ( ID_Ubicacion ) ;
+
+
+CREATE TABLE Usuario 
+    ( 
+     ID_Usuario INTEGER  NOT NULL , 
+     Nombre VARCHAR (50) DEFAULT 'NULL' , 
+     Apellido VARCHAR (50) DEFAULT 'NULL' , 
+     Telefono VARCHAR (50) DEFAULT 'NULL' , 
+     Email VARCHAR (50) DEFAULT 'NULL' , 
+     Login VARCHAR (50) DEFAULT 'NULL' , 
+     Clave VARCHAR (50) DEFAULT 'NULL' , 
+     Rol_ID_Rol INTEGER  NOT NULL , 
+     Departamento_ID_Dpto INTEGER  NOT NULL , 
+     Pregunta VARCHAR (50) DEFAULT 'NULL' , 
+     Respuesta VARCHAR (50) DEFAULT 'NULL' 
+    ) 
+;
+
+
+
+ALTER TABLE Usuario 
+    ADD CONSTRAINT Usuario_PK PRIMARY KEY ( ID_Usuario ) ;
+
+
+CREATE TABLE Viajes 
+    ( 
+     Fecha_Viaje date  NOT NULL , 
+     Hora_Salida time  NOT NULL , 
+     Num_Despacho INTEGER DEFAULT NULL , 
+     Ubicacion VARCHAR (200) , 
+     Cliente_ID_Cli INTEGER  NOT NULL , 
+     Conductor_ID_Conductor INTEGER  NOT NULL 
+    ) 
+;
+
+
+
+ALTER TABLE Viajes 
+    ADD CONSTRAINT Viajes_PK PRIMARY KEY ( Fecha_Viaje, Hora_Salida ) ;
+
+
+CREATE TABLE Viajes2 
+    ( 
+     id INTEGER  NOT NULL , 
+     Fecha_Viaje DATE  NOT NULL , 
+     Hora_Alarma TIME  NOT NULL , 
+     Velocidad double , 
+     Ubicacion VARCHAR (200) , 
+     Latitud VARCHAR (20) , 
+     Longitud VARCHAR (20) , 
+     CH_CD_Conductor_ID_Conductor INTEGER  NOT NULL , 
+     CH_CD_Chuto_Placal_Chuto VARCHAR (50)  NOT NULL 
+    ) 
+;
+
+
+
+ALTER TABLE Viajes2 
+    ADD CONSTRAINT Viajes2_PK PRIMARY KEY ( id ) ;
+
+
+CREATE TABLE Zona_Com 
+    ( 
+     ID_Zona INTEGER  NOT NULL , 
+     Nombre_zona VARCHAR (50) DEFAULT 'NULL' 
+    ) 
+;
+
+
+
+ALTER TABLE Zona_Com 
+    ADD CONSTRAINT Zona_Com_PK PRIMARY KEY ( ID_Zona ) ;
+
+
+
+ALTER TABLE CH_CD 
+    ADD CONSTRAINT CH_CD_Chuto_FK FOREIGN KEY 
+    ( 
+     Chuto_Placal_Chuto
+    ) 
+    REFERENCES Chuto 
+    ( 
+     Placal_Chuto
+    ) 
+;
+
+
+ALTER TABLE CH_CD 
+    ADD CONSTRAINT CH_CD_Conductor_FK FOREIGN KEY 
+    ( 
+     Conductor_ID_Conductor
+    ) 
+    REFERENCES Conductor 
+    ( 
+     ID_Conductor
+    ) 
+;
+
+
+ALTER TABLE Chuto 
+    ADD CONSTRAINT Chuto_Condicion_Chuto_FK FOREIGN KEY 
+    ( 
+     Condicion_Chuto_ID_Condicion
+    ) 
+    REFERENCES Condicion_Chuto 
+    ( 
+     ID_Condicion
+    ) 
+;
+
+
+ALTER TABLE Chuto 
+    ADD CONSTRAINT Chuto_Estatus_FK FOREIGN KEY 
+    ( 
+     Estatus_ID_Estatus
+    ) 
+    REFERENCES Estatus 
+    ( 
+     ID_Estatus
+    ) 
+;
+
+
+ALTER TABLE Chuto 
+    ADD CONSTRAINT Chuto_Flota_FK FOREIGN KEY 
+    ( 
+     Flota_ID_Flota
+    ) 
+    REFERENCES Flota 
+    ( 
+     ID_Flota
+    ) 
+;
+
+
+ALTER TABLE Chuto 
+    ADD CONSTRAINT Chuto_Marca_Chuto_FK FOREIGN KEY 
+    ( 
+     Marca_Chuto_ID_Marca
+    ) 
+    REFERENCES Marca_Chuto 
+    ( 
+     ID_Marca
+    ) 
+;
+
+
+ALTER TABLE Chuto 
+    ADD CONSTRAINT Chuto_Ubicacion_FK FOREIGN KEY 
+    ( 
+     Ubicacion_ID_Ubicacion
+    ) 
+    REFERENCES Ubicacion 
+    ( 
+     ID_Ubicacion
+    ) 
+;
+
+
+ALTER TABLE Cliente 
+    ADD CONSTRAINT Cliente_Ciudad_FK FOREIGN KEY 
+    ( 
+     Ciudad_ID_Ciudad
+    ) 
+    REFERENCES Ciudad 
+    ( 
+     ID_Ciudad
+    ) 
+;
+
+
+ALTER TABLE Cliente 
+    ADD CONSTRAINT Cliente_Distrito_FK FOREIGN KEY 
+    ( 
+     Distrito_ID_Dtto
+    ) 
+    REFERENCES Distrito 
+    ( 
+     ID_Dtto
+    ) 
+;
+
+
+ALTER TABLE Cliente 
+    ADD CONSTRAINT Cliente_Estado_FK FOREIGN KEY 
+    ( 
+     Estado_ID_Edo
+    ) 
+    REFERENCES Estado 
+    ( 
+     ID_Edo
+    ) 
+;
+
+
+ALTER TABLE Cliente 
+    ADD CONSTRAINT Cliente_Mayorista_FK FOREIGN KEY 
+    ( 
+     Mayorista_ID_Mayorista
+    ) 
+    REFERENCES Mayorista 
+    ( 
+     ID_Mayorista
+    ) 
+;
+
+
+ALTER TABLE Cliente 
+    ADD CONSTRAINT Cliente_Municipio_FK FOREIGN KEY 
+    ( 
+     Municipio_ID_Mcpio
+    ) 
+    REFERENCES Municipio 
+    ( 
+     ID_Mcpio
+    ) 
+;
+
+
+ALTER TABLE Cliente 
+    ADD CONSTRAINT Cliente_Sede_FK FOREIGN KEY 
+    ( 
+     Sede_ID_Sede
+    ) 
+    REFERENCES Sede 
+    ( 
+     ID_Sede
+    ) 
+;
+
+
+ALTER TABLE Cliente 
+    ADD CONSTRAINT Cliente_Tipo_Cliente_FK FOREIGN KEY 
+    ( 
+     Tipo_Cliente_ID_Tipo
+    ) 
+    REFERENCES Tipo_Cliente 
+    ( 
+     ID_Tipo
+    ) 
+;
+
+
+ALTER TABLE Cliente 
+    ADD CONSTRAINT Cliente_Zona_Com_FK FOREIGN KEY 
+    ( 
+     Zona_Com_ID_Zona
+    ) 
+    REFERENCES Zona_Com 
+    ( 
+     ID_Zona
+    ) 
+;
+
+
+ALTER TABLE Km_cond 
+    ADD CONSTRAINT Km_cond_Conductor_FK FOREIGN KEY 
+    ( 
+     Conductor_ID_Conductor
+    ) 
+    REFERENCES Conductor 
+    ( 
+     ID_Conductor
+    ) 
+;
+
+
+ALTER TABLE Usuario 
+    ADD CONSTRAINT Usuario_Departamento_FK FOREIGN KEY 
+    ( 
+     Departamento_ID_Dpto
+    ) 
+    REFERENCES Departamento 
+    ( 
+     ID_Dpto
+    ) 
+;
+
+
+ALTER TABLE Usuario 
+    ADD CONSTRAINT Usuario_Rol_FK FOREIGN KEY 
+    ( 
+     Rol_ID_Rol
+    ) 
+    REFERENCES Rol 
+    ( 
+     ID_Rol
+    ) 
+;
+
+
+ALTER TABLE Viajes2 
+    ADD CONSTRAINT Viajes2_CH_CD_FK FOREIGN KEY 
+    ( 
+     CH_CD_Conductor_ID_Conductor,
+     CH_CD_Chuto_Placal_Chuto
+    ) 
+    REFERENCES CH_CD 
+    ( 
+     Conductor_ID_Conductor,
+     Chuto_Placal_Chuto
+    ) 
+;
+
+
+ALTER TABLE Viajes 
+    ADD CONSTRAINT Viajes_Cliente_FK FOREIGN KEY 
+    ( 
+     Cliente_ID_Cli
+    ) 
+    REFERENCES Cliente 
+    ( 
+     ID_Cli
+    ) 
+;
+
+
+ALTER TABLE Viajes 
+    ADD CONSTRAINT Viajes_Conductor_FK FOREIGN KEY 
+    ( 
+     Conductor_ID_Conductor
+    ) 
+    REFERENCES Conductor 
+    ( 
+     ID_Conductor
+    ) 
+;

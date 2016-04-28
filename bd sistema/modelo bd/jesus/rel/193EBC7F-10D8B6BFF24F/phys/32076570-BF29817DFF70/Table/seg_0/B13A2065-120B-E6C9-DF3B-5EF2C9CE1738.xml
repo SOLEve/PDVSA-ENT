@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Ciudad" id="B13A2065-120B-E6C9-DF3B-5EF2C9CE1738" directorySegmentName="seg_0">
+   <createdBy>TEMPORAL</createdBy>
+   <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+   <changedBy>TEMPORAL</changedBy>
+   <changedTime>2013-05-08 14:05:14 UTC</changedTime>
+   <ownerDesignName>jesus</ownerDesignName>
+   <logging>YES</logging>
+   <columnProxies>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Nombre_Ciudad" id="4AD4F7F7-F164-C257-27AB-59367A5C8CA4">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <defaultValue>NULL</defaultValue>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ID_Ciudad" id="9B910929-9578-30AC-CA35-EDDEFEA1DC64">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ColumnProxy>
+   </columnProxies>
+   <primaryKeys>
+      <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="IFv3_PK" id="021A0B33-47B8-45F7-605C-EE5AB2B48CCF">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <indexSort>NO</indexSort>
+      </PrimaryKey>
+      <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Ciudad_PK" id="B16A04D2-AFFF-991D-2C4D-D81B50D0AAEE">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 14:05:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:05:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <indexSort>NO</indexSort>
+      </PrimaryKey>
+   </primaryKeys>
+</TableProxyOraclev11g>

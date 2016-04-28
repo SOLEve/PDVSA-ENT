@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="660E069B-B3A9-6720-03CD-46405186CCE0" directorySegmentName="seg_0" name="Municipio">
+   <createdBy>TEMPORAL</createdBy>
+   <createdTime>2013-05-08 13:12:17 UTC</createdTime>
+   <changedBy>TEMPORAL</changedBy>
+   <changedTime>2013-05-08 14:04:27 UTC</changedTime>
+   <ownerDesignName>jesus</ownerDesignName>
+   <importedID>E2BF479D-A546-5236-A2FE-AAF317033770</importedID>
+   <pkName>IFv16_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID_Mcpio" id="285E0C5C-E7D2-13B4-10B8-18A241D2A5DF">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:17 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:04:22 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <importedID>06CEDCAC-AD59-FB3E-6FD8-B0E60A663B72</importedID>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <domain>A0481FD4-C5CA-7835-3E01-A80924B36982</domain>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Nombre_Mcpio" id="EAFC7F8A-FC1A-8A7E-CE67-1BDED640D78E">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:17 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:04:22 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <importedID>6C4A7DDD-7DC4-8B34-73F4-E60AA9CE2ECB</importedID>
+         <nullsAllowed>true</nullsAllowed>
+         <defaultValue>NULL</defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50</dataTypeSize>
+         <domain>4A80F376-8321-F4AF-5DA4-039EE0A77370</domain>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="A47CB50A-FA19-CC7C-8CAB-FA7C3AB1DAA2" name="Municipio_PK">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 14:04:27 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:04:27 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="285E0C5C-E7D2-13B4-10B8-18A241D2A5DF"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

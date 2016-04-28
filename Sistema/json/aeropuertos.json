@@ -1,0 +1,14 @@
+[{
+    "name": "Aeropuerto Caracas Charallave",
+    "type": "Aeropuerto",
+	"icon": "images/airport.png",
+    "lng": -66.81946734,
+    "lat": 10.29056572
+},{
+    "name": "Helipuerto Avila Guarenas",
+    "type": "Aeropuerto",
+	"icon": "images/airport.png",
+    "lng": -66.70676,
+    "lat": 10.480638	
+}
+]

@@ -1,0 +1,391 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="3C838609-94C7-13FC-90EF-11048702645F" directorySegmentName="seg_0" name="Cliente">
+   <createdBy>TEMPORAL</createdBy>
+   <createdTime>2013-05-08 13:12:17 UTC</createdTime>
+   <changedBy>TEMPORAL</changedBy>
+   <changedTime>2013-06-28 13:43:18 UTC</changedTime>
+   <ownerDesignName>jesus</ownerDesignName>
+   <importedID>D9D9F530-8BA7-99A8-7234-2313CB84A95C</importedID>
+   <pkName>IFv4_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID_Cli" id="3CD24CE4-81EB-365C-E6CC-E353CF4271B3">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:17 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-06-28 12:56:23 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <importedID>21252C26-E192-A0C0-6143-F71256F0E6AC</importedID>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20</dataTypeSize>
+         <domain>A0481FD4-C5CA-7835-3E01-A80924B36982</domain>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Nombre_Cli" id="8FCC1FDB-F4D0-2288-E18D-39210592A4DE">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:17 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:50:33 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <importedID>2F2980C6-70B5-D06F-37BA-A1AF87DBC810</importedID>
+         <nullsAllowed>true</nullsAllowed>
+         <defaultValue>NULL</defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50</dataTypeSize>
+         <domain>4A80F376-8321-F4AF-5DA4-039EE0A77370</domain>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="RIF_Cli" id="64776BC5-233C-B3F9-1FB0-E84E15473FB1">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:17 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:50:33 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <importedID>B81944B0-775C-650F-5203-867553694B31</importedID>
+         <nullsAllowed>true</nullsAllowed>
+         <defaultValue>NULL</defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50</dataTypeSize>
+         <domain>F61EB7BD-03FC-04F2-534D-BC498125195D</domain>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Razon_Social_Cli" id="EC4FCEBF-B9CB-6E9D-DA05-2A52D38896BC">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:17 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:50:33 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <importedID>7D47833C-C4B7-9556-D7AD-4F0CF01853C0</importedID>
+         <nullsAllowed>true</nullsAllowed>
+         <defaultValue>NULL</defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50</dataTypeSize>
+         <domain>4A80F376-8321-F4AF-5DA4-039EE0A77370</domain>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Direccion_Cli" id="3566195D-66AE-0541-EAF2-BB871E873909">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:17 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:50:33 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <importedID>63A8C9D2-62DF-8D63-0948-B00F67389F6A</importedID>
+         <nullsAllowed>true</nullsAllowed>
+         <defaultValue>NULL</defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>100</dataTypeSize>
+         <domain>4A44B9DF-506E-EE6B-D61D-282C99FDE63D</domain>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Telefono_Cli" id="B64D1C96-ABD9-67AD-CD21-427FF9189CDE">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:17 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:50:33 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <importedID>EF16AA19-16B0-AD9E-BD1E-8B28C0D33DB7</importedID>
+         <nullsAllowed>true</nullsAllowed>
+         <defaultValue>NULL</defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20</dataTypeSize>
+         <domain>D1E53574-A914-BE2E-AE6C-9B5B3104526A</domain>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Distancia_Cli" id="205DDB3D-CB4C-54EA-CAF4-FAB59176C668">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:17 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:50:33 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <importedID>FD3A90B7-BDC7-49F2-2FE9-7A0E82F25BC1</importedID>
+         <nullsAllowed>true</nullsAllowed>
+         <defaultValue>NULL</defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <domain>852A2FFC-547C-C4E4-3201-82D8E2DC1F06</domain>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Tiempo_Cli" id="94D8E4F8-7578-D01A-E243-9CED07776CC0">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:17 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-06-28 12:56:47 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <importedID>09270887-E8C1-1E17-595E-391C9C1432C7</importedID>
+         <nullsAllowed>true</nullsAllowed>
+         <defaultValue>NULL</defaultValue>
+         <use>1</use>
+         <logicalDatatype>LOGDT014</logicalDatatype>
+         <domain>852A2FFC-547C-C4E4-3201-82D8E2DC1F06</domain>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Tipo_Cliente_ID_Tipo" id="3EB07036-F286-9F6D-616B-8FACA425E9B0">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 14:07:36 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:07:36 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <domain>A0481FD4-C5CA-7835-3E01-A80924B36982</domain>
+         <delegate>0C90F386-47C5-80D0-E7DA-7F4F0AF186D1</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="5B119CAA-A8D3-FDBD-18FA-F97CE58ADC87" referredColumn="0C90F386-47C5-80D0-E7DA-7F4F0AF186D1"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Distrito_ID_Dtto" id="E4CE1F0E-46BC-B84D-1CB5-A9B5EE584C65">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 14:07:38 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:07:38 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <domain>A0481FD4-C5CA-7835-3E01-A80924B36982</domain>
+         <delegate>F939D1D0-690A-60DC-F025-AF9D611F733E</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="65ACBE20-4E8E-862A-BC59-16BA1DB4E6DB" referredColumn="F939D1D0-690A-60DC-F025-AF9D611F733E"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Mayorista_ID_Mayorista" id="8E95C0E4-8CA3-6A0B-E537-C19663E5F926">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 14:07:40 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:07:40 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <domain>A0481FD4-C5CA-7835-3E01-A80924B36982</domain>
+         <delegate>C1240CFD-11D5-8D0E-AF9E-81B94CE687A4</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="CF0BE3A7-D85F-88C8-9A57-331885AD7B94" referredColumn="C1240CFD-11D5-8D0E-AF9E-81B94CE687A4"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Estado_ID_Edo" id="4E39C8D0-002C-517D-A135-12EBED7C54C7">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 14:07:42 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:07:42 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <domain>A0481FD4-C5CA-7835-3E01-A80924B36982</domain>
+         <delegate>9896932F-8735-C886-E404-54446EE5CAB1</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="7A63C3C0-CCFE-0CC1-4980-155C22ED5F14" referredColumn="9896932F-8735-C886-E404-54446EE5CAB1"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Zona_Com_ID_Zona" id="0665D860-969B-6665-259D-8880E90FCD21">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 14:07:43 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:07:43 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <domain>A0481FD4-C5CA-7835-3E01-A80924B36982</domain>
+         <delegate>CA4E17D8-88CB-6CAE-4D94-EC48150C00DE</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="0588BECD-AF44-4EAC-3EB6-98E3ABE64A00" referredColumn="CA4E17D8-88CB-6CAE-4D94-EC48150C00DE"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Ciudad_ID_Ciudad" id="4123264B-AED5-ED6C-4333-7BD607CD679F">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 14:07:45 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:07:45 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <domain>A0481FD4-C5CA-7835-3E01-A80924B36982</domain>
+         <delegate>9B910929-9578-30AC-CA35-EDDEFEA1DC64</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="C5555D10-FB1C-5AD8-D10F-CAE593BA5FE9" referredColumn="9B910929-9578-30AC-CA35-EDDEFEA1DC64"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Municipio_ID_Mcpio" id="36ED518D-A418-0CAD-C65D-0C227D9D6D2F">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 14:07:46 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:07:46 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <domain>A0481FD4-C5CA-7835-3E01-A80924B36982</domain>
+         <delegate>285E0C5C-E7D2-13B4-10B8-18A241D2A5DF</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="15EA57A9-0175-B15A-7AD4-AD12E2D627CB" referredColumn="285E0C5C-E7D2-13B4-10B8-18A241D2A5DF"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Sede_ID_Sede" id="A138954E-6113-7047-8F32-DBD6E75E9F48">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 14:07:48 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:07:48 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <domain>A0481FD4-C5CA-7835-3E01-A80924B36982</domain>
+         <delegate>C3ED4480-061D-BDEA-2897-BA1BC07C8762</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="FE930887-D142-B886-9383-5D769329466B" referredColumn="C3ED4480-061D-BDEA-2897-BA1BC07C8762"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Lat" id="2BEB36CB-8C06-6FA8-6D5D-4351D95D3F2E">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-20 18:17:06 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-20 18:17:06 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Lon" id="7FBE9FCD-2147-40FE-1CEE-CA20FFDC5D80">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-20 18:17:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-20 18:17:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20</dataTypeSize>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="8C33ECDE-D488-E6A4-1C23-5D1AE1AFA88B" name="Cliente_PK">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:50:33 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:50:33 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="3CD24CE4-81EB-365C-E6CC-E353CF4271B3"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="EC4C0009-136C-F224-D7B3-CA671A03E1AA" name="Cliente_Tipo_Cliente_FK">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 14:07:36 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:07:36 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="3EB07036-F286-9F6D-616B-8FACA425E9B0"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="50848ECB-6082-5958-D3E3-64C7913A1CFA" name="Cliente_Distrito_FK">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 14:07:38 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:07:38 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="E4CE1F0E-46BC-B84D-1CB5-A9B5EE584C65"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="80AD2AF3-AEE8-6CE8-3FF2-D9E71D6C1643" name="Cliente_Mayorista_FK">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 14:07:40 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:07:40 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="8E95C0E4-8CA3-6A0B-E537-C19663E5F926"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="426859C5-8ABB-59AC-BA3B-35CB10AB167A" name="Cliente_Estado_FK">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 14:07:42 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:07:42 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="4E39C8D0-002C-517D-A135-12EBED7C54C7"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="5134FD92-554D-13C3-E41B-2E0FBF690E08" name="Cliente_Zona_Com_FK">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 14:07:43 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:07:43 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="0665D860-969B-6665-259D-8880E90FCD21"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="20FA5664-3B42-29B6-7358-BC158B2AFAD1" name="Cliente_Ciudad_FK">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 14:07:45 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:07:45 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="4123264B-AED5-ED6C-4333-7BD607CD679F"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="7F1E6341-ADE8-0C49-F17C-F15D30654DAD" name="Cliente_Municipio_FK">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 14:07:46 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:07:46 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="36ED518D-A418-0CAD-C65D-0C227D9D6D2F"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="E9AA493D-9E98-2A1A-F367-6263DCC28080" name="Cliente_Sede_FK">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 14:07:48 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:07:48 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="A138954E-6113-7047-8F32-DBD6E75E9F48"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

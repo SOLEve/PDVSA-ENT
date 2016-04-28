@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Distrito" id="40A3DC71-3AA9-7050-A899-458B660C5880" directorySegmentName="seg_0">
+   <createdBy>TEMPORAL</createdBy>
+   <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+   <changedBy>TEMPORAL</changedBy>
+   <changedTime>2013-05-08 14:03:40 UTC</changedTime>
+   <ownerDesignName>jesus</ownerDesignName>
+   <logging>YES</logging>
+   <columnProxies>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Nombre_Dtto" id="78A0E9AC-0D9C-0A77-09F1-59354CB49FBE">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <defaultValue>NULL</defaultValue>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="ID_Dtto" id="F939D1D0-690A-60DC-F025-AF9D611F733E">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ColumnProxy>
+   </columnProxies>
+   <primaryKeys>
+      <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Distrito_PK" id="35638A9E-DE5E-CEE9-AFD2-E4FDC5AE0B1A">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 14:03:40 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 14:03:40 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <indexSort>NO</indexSort>
+      </PrimaryKey>
+      <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="IFv8_PK" id="6D2DC85D-0590-D3B7-1540-6EAE7F0EA406">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <indexSort>NO</indexSort>
+      </PrimaryKey>
+   </primaryKeys>
+</TableProxyOraclev11g>

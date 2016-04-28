@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="Table" objectID="01C30F17-374A-61AD-87F9-A92D3FA41261" name="Condicion_Chuto" seqName="seg_0"/>
+   <object objectType="Table" objectID="02941420-43D2-4BB4-5CC5-3F273ECE80BC" name="Flota" seqName="seg_0"/>
+   <object objectType="Table" objectID="0814EFC7-297C-82A5-912A-342E5BAD87E1" name="Ubicacion" seqName="seg_0"/>
+   <object objectType="Table" objectID="1494626E-1554-E889-F822-81F7229F01F3" name="Usuario" seqName="seg_0"/>
+   <object objectType="Table" objectID="23BBA486-A793-DF1D-5EDF-87BB0BBD6663" name="Mayorista" seqName="seg_0"/>
+   <object objectType="Table" objectID="2DA3ED04-440A-6232-2398-23A6B533BA1F" name="Zona_Com" seqName="seg_0"/>
+   <object objectType="Table" objectID="35075368-2BE3-47D6-10CD-A0B9364015D3" name="Marca_Chuto" seqName="seg_0"/>
+   <object objectType="Table" objectID="3C838609-94C7-13FC-90EF-11048702645F" name="Cliente" seqName="seg_0"/>
+   <object objectType="Table" objectID="40A3DC71-3AA9-7050-A899-458B660C5880" name="Distrito" seqName="seg_0"/>
+   <object objectType="Table" objectID="53D55FD4-38C7-429F-A2BE-4739C6BC7954" name="Rol" seqName="seg_0"/>
+   <object objectType="Table" objectID="55E10A9C-7F27-314E-CD4E-07AFCBD6993E" name="Alarma_Viajes" seqName="seg_0"/>
+   <object objectType="Table" objectID="660E069B-B3A9-6720-03CD-46405186CCE0" name="Municipio" seqName="seg_0"/>
+   <object objectType="Table" objectID="74516546-3BA6-0CA9-94F2-6078DCA2CD7D" name="Departamento" seqName="seg_0"/>
+   <object objectType="Table" objectID="7C441877-9F87-815E-5749-487E77ABF40E" name="Unidad" seqName="seg_0"/>
+   <object objectType="Table" objectID="823E38CB-0880-A5DD-B29D-95B7FF8228ED" name="Viajes" seqName="seg_0"/>
+   <object objectType="Table" objectID="87F57B2D-4485-B11C-1CB9-A2C2B2515E52" name="Estatus" seqName="seg_0"/>
+   <object objectType="Table" objectID="8E3CFC85-16D0-4DC5-D091-75F7FF11F290" name="Tipo_Cliente" seqName="seg_0"/>
+   <object objectType="Table" objectID="9457DFD0-ADA5-4201-EEAB-586D8272B3A0" name="Estado" seqName="seg_0"/>
+   <object objectType="Table" objectID="A22F608D-B61F-C9D1-2BDB-7CB4851A339F" name="CH_CD" seqName="seg_0"/>
+   <object objectType="Table" objectID="A478E38C-4585-95FF-187E-EE59EB540E6C" name="Conductor" seqName="seg_0"/>
+   <object objectType="Table" objectID="A9BF4E7B-4D8D-1B8A-C8B4-CC1984FC282F" name="Chuto" seqName="seg_0"/>
+   <object objectType="Table" objectID="AF7A26C0-DB79-9D0F-13AC-CD70F33DB4CA" name="Sede" seqName="seg_0"/>
+   <object objectType="Table" objectID="B13A2065-120B-E6C9-DF3B-5EF2C9CE1738" name="Ciudad" seqName="seg_0"/>
+   <object objectType="Table" objectID="D380A171-257F-12D4-80F4-AB0E16F26D3E" name="Alarma" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

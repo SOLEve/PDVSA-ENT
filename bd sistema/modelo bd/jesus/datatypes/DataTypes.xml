@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataTypesDesign class="oracle.dbtools.crest.model.design.datatypes.DataTypesDesign" name="DataTypes" id="34C13C6D-FE23-17DF-E1CF-B65E67C4955F" mainViewID="5396F02C-4924-9468-970C-8B73DC7671D1">
+   <createdBy>TEMPORAL</createdBy>
+   <createdTime>2013-05-08 13:11:09 UTC</createdTime>
+   <changedBy>TEMPORAL</changedBy>
+   <changedTime>2013-05-08 13:11:09 UTC</changedTime>
+   <ownerDesignName>jesus</ownerDesignName>
+   <shouldBeOpen>false</shouldBeOpen>
+</DataTypesDesign>

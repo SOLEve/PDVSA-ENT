@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="DE60B3D2-C7C2-155C-CF63-9CBC736B0D5A" directorySegmentName="seg_0" name="Plan_mantenimiento">
+   <createdBy>TEMPORAL</createdBy>
+   <createdTime>2013-07-12 20:16:25 UTC</createdTime>
+   <changedBy>TEMPORAL</changedBy>
+   <changedTime>2013-07-12 20:17:43 UTC</changedTime>
+   <ownerDesignName>jesus</ownerDesignName>
+   <pkName>Plan_mantenimiento_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="id" id="9D07C44C-FFC6-9CB7-C45D-64BB3C1FC25F">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-07-12 20:16:42 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-07-12 20:16:42 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="fecha" id="21B2C788-6093-BAD1-E54D-399C62AE70CE">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-07-12 20:17:20 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-07-12 20:17:20 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Chuto_Placal_Chuto" id="FD9FD3F8-574D-4EAE-1B19-FDA1DC6013C9">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-07-12 20:17:42 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-07-12 20:17:42 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50</dataTypeSize>
+         <domain>F61EB7BD-03FC-04F2-534D-BC498125195D</domain>
+         <delegate>703EDC78-7048-0E2E-6ED0-CB46027A5D24</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="4EB66559-8D8E-193F-E541-332D363A5423" referredColumn="703EDC78-7048-0E2E-6ED0-CB46027A5D24"/>
+         </associations>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="7D6139F1-8B1A-ABBA-879F-265F43A8F90F" name="Plan_mantenimiento_PK">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-07-12 20:16:42 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-07-12 20:16:42 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="9D07C44C-FFC6-9CB7-C45D-64BB3C1FC25F"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="08EC10DF-6483-3A93-024D-A7606F08C6E2" name="Plan_mantenimiento_Chuto_FK">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-07-12 20:17:42 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-07-12 20:17:42 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="FD9FD3F8-574D-4EAE-1B19-FDA1DC6013C9"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="5EA8151F-E23A-610C-A533-7078736C7120" directorySegmentName="seg_0" name="Km_cond">
+   <createdBy>TEMPORAL</createdBy>
+   <createdTime>2013-06-28 18:08:13 UTC</createdTime>
+   <changedBy>TEMPORAL</changedBy>
+   <changedTime>2013-07-08 14:57:18 UTC</changedTime>
+   <ownerDesignName>jesus</ownerDesignName>
+   <pkName>Km_cond_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Num_Desp" id="4C37525B-AEB3-E252-6931-2E5A4025C562">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-06-28 18:11:18 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-06-28 18:11:38 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT020</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Fecha_km" id="641D05D6-564F-4817-67F4-A64CA0C0DE1A">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-06-28 18:10:42 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-06-28 18:10:42 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Km_cond" id="28FAF8F2-BCCC-E4CA-D45D-A177B80F00D8">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-06-28 18:10:42 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-06-28 18:10:42 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT020</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Conductor_ID_Conductor" id="B78F7679-BBDF-FD4B-FB8E-8C5421AF1A31">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-06-28 18:11:22 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-06-28 18:11:22 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <domain>A0481FD4-C5CA-7835-3E01-A80924B36982</domain>
+         <delegate>9C459C51-7209-BBEF-31EA-E4A8607CD8B1</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="8728ADEB-3EB2-DA92-FA33-BCB5206550A8" referredColumn="9C459C51-7209-BBEF-31EA-E4A8607CD8B1"/>
+         </associations>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="9E76FA28-6400-FA70-4174-38703BD48631" name="Km_cond_PK">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-06-28 18:11:38 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-06-28 18:11:38 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="4C37525B-AEB3-E252-6931-2E5A4025C562"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="D8F7D597-AFB2-02D2-A2EF-18448534820D" name="Km_cond_Conductor_FK">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-06-28 18:11:22 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-06-28 18:11:22 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="B78F7679-BBDF-FD4B-FB8E-8C5421AF1A31"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="8ADED96F-7687-B416-C245-A93269C58422" directorySegmentName="seg_0" name="Chuto_Flota_FK">
+   <createdBy>TEMPORAL</createdBy>
+   <createdTime>2013-05-08 13:39:05 UTC</createdTime>
+   <changedBy>TEMPORAL</changedBy>
+   <changedTime>2013-05-08 13:39:05 UTC</changedTime>
+   <ownerDesignName>jesus</ownerDesignName>
+   <containerWithKeyObject>A9BF4E7B-4D8D-1B8A-C8B4-CC1984FC282F</containerWithKeyObject>
+   <deleteRule>RESTRICT</deleteRule>
+   <localFKIndex>2174F5C2-5DD3-4AEC-65AA-24B617DEC4C8</localFKIndex>
+   <keyObject>2AF104E5-055A-F5BD-19BE-1E1B676D74BA</keyObject>
+   <mandatory>true</mandatory>
+   <transferable>true</transferable>
+</FKIndexAssociation>

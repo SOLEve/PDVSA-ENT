@@ -1,0 +1,520 @@
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'usuario'@'localhost' (using password: YES) in C:\wamp\www\calendario\config.inc.php on line 8
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. include() C:\wamp\www\calendario\index.php:51
+[09-Jul-2013 13:50:44] PHP   3. mysql_connect() C:\wamp\www\calendario\config.inc.php:8
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 115
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:115
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 13:50:44] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\calendario\index.php on line 163
+[09-Jul-2013 13:50:44] PHP Stack trace:
+[09-Jul-2013 13:50:44] PHP   1. {main}() C:\wamp\www\calendario\index.php:0
+[09-Jul-2013 13:50:44] PHP   2. mysql_fetch_array() C:\wamp\www\calendario\index.php:163
+[09-Jul-2013 15:25:18] PHP Notice:  Undefined index: titulos in C:\wamp\www\sistema2.0\plan.php on line 78
+[09-Jul-2013 15:25:18] PHP Stack trace:
+[09-Jul-2013 15:25:18] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:25:22] PHP Notice:  Undefined index: titulos in C:\wamp\www\sistema2.0\plan.php on line 78
+[09-Jul-2013 15:25:22] PHP Stack trace:
+[09-Jul-2013 15:25:22] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 113
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 115
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:115
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:35] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:35] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:35] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:35] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:35] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:35] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:35] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:35] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:35] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:35] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:35] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:35] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:35] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:35] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:35] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:35] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:35] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:35] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:35] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:35] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:35] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:35] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:36] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:36] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:36] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:36] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:36] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:36] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:36] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:36] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:36] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:36] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:36] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:36] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 157
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:157
+[09-Jul-2013 15:39:36] PHP Notice:  Undefined variable: dbname in C:\wamp\www\sistema2.0\plan.php on line 160
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in C:\wamp\www\sistema2.0\plan.php on line 162
+[09-Jul-2013 15:39:36] PHP Stack trace:
+[09-Jul-2013 15:39:36] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:39:36] PHP   2. mysql_fetch_array() C:\wamp\www\sistema2.0\plan.php:162
+[09-Jul-2013 15:46:51] PHP Notice:  Undefined variable: _SESSION in C:\wamp\www\sistema2.0\plan.php on line 90
+[09-Jul-2013 15:46:51] PHP Stack trace:
+[09-Jul-2013 15:46:51] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:46:51] PHP Fatal error:  Call to undefined function consultar() in C:\wamp\www\sistema2.0\plan.php on line 91
+[09-Jul-2013 15:46:51] PHP Stack trace:
+[09-Jul-2013 15:46:51] PHP   1. {main}() C:\wamp\www\sistema2.0\plan.php:0
+[09-Jul-2013 15:47:58] PHP Notice:  Undefined variable: _SESSION in C:\wamp\www\sistema2.0\plan2.php on line 90
+[09-Jul-2013 15:47:58] PHP Stack trace:
+[09-Jul-2013 15:47:58] PHP   1. {main}() C:\wamp\www\sistema2.0\plan2.php:0
+[09-Jul-2013 15:47:58] PHP Fatal error:  Call to undefined function consultar() in C:\wamp\www\sistema2.0\plan2.php on line 91
+[09-Jul-2013 15:47:58] PHP Stack trace:
+[09-Jul-2013 15:47:58] PHP   1. {main}() C:\wamp\www\sistema2.0\plan2.php:0
+[09-Jul-2013 17:36:21] PHP Notice:  Undefined index: titulos in C:\wamp\www\sistema2.0\plan2.php on line 118
+[09-Jul-2013 17:36:21] PHP Stack trace:
+[09-Jul-2013 17:36:21] PHP   1. {main}() C:\wamp\www\sistema2.0\plan2.php:0
+[09-Jul-2013 17:36:31] PHP Notice:  Undefined index: titulos in C:\wamp\www\sistema2.0\plan2.php on line 118
+[09-Jul-2013 17:36:31] PHP Stack trace:
+[09-Jul-2013 17:36:31] PHP   1. {main}() C:\wamp\www\sistema2.0\plan2.php:0
+[09-Jul-2013 17:37:06] PHP Notice:  Undefined index: titulos in C:\wamp\www\sistema2.0\plan2.php on line 118
+[09-Jul-2013 17:37:06] PHP Stack trace:
+[09-Jul-2013 17:37:06] PHP   1. {main}() C:\wamp\www\sistema2.0\plan2.php:0
+[10-Jul-2013 12:33:09] PHP Notice:  Undefined index: fecha in C:\wamp\www\sistema2.0\plan3.php on line 123
+[10-Jul-2013 12:33:10] PHP Stack trace:
+[10-Jul-2013 12:33:10] PHP   1. {main}() C:\wamp\www\sistema2.0\plan3.php:0
+[10-Jul-2013 12:33:10] PHP Notice:  Undefined index: evento in C:\wamp\www\sistema2.0\plan3.php on line 124
+[10-Jul-2013 12:33:10] PHP Stack trace:
+[10-Jul-2013 12:33:10] PHP   1. {main}() C:\wamp\www\sistema2.0\plan3.php:0
+[10-Jul-2013 12:33:10] PHP Notice:  Undefined index: evento in C:\wamp\www\sistema2.0\plan3.php on line 166
+[10-Jul-2013 12:33:10] PHP Stack trace:
+[10-Jul-2013 12:33:10] PHP   1. {main}() C:\wamp\www\sistema2.0\plan3.php:0
+[10-Jul-2013 12:33:50] PHP Notice:  Undefined index: evento in C:\wamp\www\sistema2.0\plan3.php on line 166
+[10-Jul-2013 12:33:50] PHP Stack trace:
+[10-Jul-2013 12:33:50] PHP   1. {main}() C:\wamp\www\sistema2.0\plan3.php:0

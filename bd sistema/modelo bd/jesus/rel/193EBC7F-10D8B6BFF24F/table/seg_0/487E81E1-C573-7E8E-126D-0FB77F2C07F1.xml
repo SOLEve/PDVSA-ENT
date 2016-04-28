@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="487E81E1-C573-7E8E-126D-0FB77F2C07F1" directorySegmentName="seg_0" name="Viajes2">
+   <createdBy>TEMPORAL</createdBy>
+   <createdTime>2013-06-28 13:53:35 UTC</createdTime>
+   <changedBy>TEMPORAL</changedBy>
+   <changedTime>2013-07-08 14:39:14 UTC</changedTime>
+   <ownerDesignName>jesus</ownerDesignName>
+   <pkName>Viajes2_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Fecha_Viaje" id="100AF0F6-4973-AC6A-44D2-CABAC600F113">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-06-28 13:54:18 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-06-28 13:54:18 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Hora_Alarma" id="20F524C6-2513-395C-E527-A661F8878952">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-06-28 13:54:31 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-06-28 13:54:31 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT015</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Velocidad" id="0FB3E135-BCE1-88AD-9E15-52DB2E70B337">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-06-28 13:54:45 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-06-28 13:54:45 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT020</logicalDatatype>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Ubicacion" id="BD8DFE62-916E-3B11-1443-97C5187419A0">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-06-28 13:55:32 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-06-28 13:55:32 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>200</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Latitud" id="433DCAB0-4333-8EE6-4794-C9DEEC0DDFB8">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-06-28 13:56:12 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-06-28 13:56:12 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="Longitud" id="BAC1E0EF-E4DD-ADE2-FD07-AADDA02FA525">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-06-28 13:56:27 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-06-28 13:56:27 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>20</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CH_CD_Conductor_ID_Conductor" id="3E0BD6D7-A634-E922-9020-E4138D5FE160">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-06-28 18:41:03 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-06-28 18:41:03 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <domain>A0481FD4-C5CA-7835-3E01-A80924B36982</domain>
+         <delegate>528DF33E-95AD-36FB-1998-2A4CC7DEB1F2</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="691A0538-CE21-53A0-7F3C-3690B88B6B7D" referredColumn="528DF33E-95AD-36FB-1998-2A4CC7DEB1F2"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CH_CD_Chuto_Placal_Chuto" id="99858635-761C-7416-F7D5-F215731AD5CB">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-06-28 18:41:03 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-06-28 18:41:03 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50</dataTypeSize>
+         <domain>F61EB7BD-03FC-04F2-534D-BC498125195D</domain>
+         <delegate>E0910BCA-B54B-8A13-AA2E-63DF3BBFF6ED</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="691A0538-CE21-53A0-7F3C-3690B88B6B7D" referredColumn="E0910BCA-B54B-8A13-AA2E-63DF3BBFF6ED"/>
+         </associations>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="6F7F68F8-DA41-9A9B-6A86-5F95172C4CCD" name="Viajes2_PK">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-06-28 13:54:18 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-06-28 13:54:18 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="100AF0F6-4973-AC6A-44D2-CABAC600F113"/>
+            <colUsage columnID="20F524C6-2513-395C-E527-A661F8878952"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="396AFF05-AA29-AFA2-4C11-8DC929828FBD" name="Viajes2_CH_CD_FK">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-06-28 18:41:03 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-06-28 18:41:03 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="3E0BD6D7-A634-E922-9020-E4138D5FE160"/>
+            <colUsage columnID="99858635-761C-7416-F7D5-F215731AD5CB"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

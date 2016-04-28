@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="072A730F-59F5-CA00-FCC3-2D47B8B882B1" directorySegmentName="seg_0" name="Viajes_Cliente_FK">
+   <createdBy>TEMPORAL</createdBy>
+   <createdTime>2013-06-28 13:20:28 UTC</createdTime>
+   <changedBy>TEMPORAL</changedBy>
+   <changedTime>2013-06-28 13:20:28 UTC</changedTime>
+   <ownerDesignName>jesus</ownerDesignName>
+   <containerWithKeyObject>823E38CB-0880-A5DD-B29D-95B7FF8228ED</containerWithKeyObject>
+   <deleteRule>RESTRICT</deleteRule>
+   <localFKIndex>D987EF81-EAD6-7A13-A4C5-1B37F53FA0C3</localFKIndex>
+   <keyObject>8C33ECDE-D488-E6A4-1C23-5D1AE1AFA88B</keyObject>
+   <mandatory>true</mandatory>
+   <transferable>true</transferable>
+</FKIndexAssociation>

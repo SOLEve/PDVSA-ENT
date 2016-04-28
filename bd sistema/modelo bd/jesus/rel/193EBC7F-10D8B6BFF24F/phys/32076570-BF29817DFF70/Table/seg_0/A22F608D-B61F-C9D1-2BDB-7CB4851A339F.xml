@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CH_CD" id="A22F608D-B61F-C9D1-2BDB-7CB4851A339F" directorySegmentName="seg_0">
+   <createdBy>TEMPORAL</createdBy>
+   <createdTime>2013-05-08 13:39:15 UTC</createdTime>
+   <changedBy>TEMPORAL</changedBy>
+   <changedTime>2013-05-08 13:40:08 UTC</changedTime>
+   <ownerDesignName>jesus</ownerDesignName>
+   <logging>YES</logging>
+   <columnProxies>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Conductor_ID_Conductor" id="528DF33E-95AD-36FB-1998-2A4CC7DEB1F2">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:39:51 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:39:51 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Chuto_Placal_Chuto" id="E0910BCA-B54B-8A13-AA2E-63DF3BBFF6ED">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:39:53 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:39:53 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ColumnProxy>
+   </columnProxies>
+   <foreignKeys>
+      <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CH_CD_Chuto_FK" id="824B4F6D-02DA-DAA7-96BF-F0F71548033B">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:39:53 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:39:53 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ForeignKey>
+      <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CH_CD_Conductor_FK" id="ABBBD26F-CBA1-5F74-D612-932B966AE532">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:39:51 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:39:51 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ForeignKey>
+   </foreignKeys>
+   <primaryKeys>
+      <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CH_CD_PK" id="D34F15D2-FC45-8849-6707-E88005457C2E">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:40:08 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:40:08 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <indexSort>NO</indexSort>
+      </PrimaryKey>
+   </primaryKeys>
+</TableProxyOraclev11g>

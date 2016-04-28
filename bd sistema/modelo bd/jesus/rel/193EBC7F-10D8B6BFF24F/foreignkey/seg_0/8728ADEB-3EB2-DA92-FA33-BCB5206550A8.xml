@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="8728ADEB-3EB2-DA92-FA33-BCB5206550A8" directorySegmentName="seg_0" name="Km_cond_Conductor_FK">
+   <createdBy>TEMPORAL</createdBy>
+   <createdTime>2013-06-28 18:11:22 UTC</createdTime>
+   <changedBy>TEMPORAL</changedBy>
+   <changedTime>2013-06-28 18:11:22 UTC</changedTime>
+   <ownerDesignName>jesus</ownerDesignName>
+   <containerWithKeyObject>5EA8151F-E23A-610C-A533-7078736C7120</containerWithKeyObject>
+   <deleteRule>RESTRICT</deleteRule>
+   <localFKIndex>D8F7D597-AFB2-02D2-A2EF-18448534820D</localFKIndex>
+   <keyObject>C43243D0-7854-6697-2587-197216B074BF</keyObject>
+   <mandatory>true</mandatory>
+   <transferable>true</transferable>
+</FKIndexAssociation>

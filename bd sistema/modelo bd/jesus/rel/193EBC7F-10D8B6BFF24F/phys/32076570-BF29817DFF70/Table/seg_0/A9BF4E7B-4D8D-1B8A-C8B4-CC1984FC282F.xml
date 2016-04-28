@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Chuto" id="A9BF4E7B-4D8D-1B8A-C8B4-CC1984FC282F" directorySegmentName="seg_0">
+   <createdBy>TEMPORAL</createdBy>
+   <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+   <changedBy>TEMPORAL</changedBy>
+   <changedTime>2013-05-08 13:47:47 UTC</changedTime>
+   <ownerDesignName>jesus</ownerDesignName>
+   <logging>YES</logging>
+   <columnProxies>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Condicion_Chuto_ID_Condicion" id="14C3E9FC-77DE-152A-2875-E293F1D1AF86">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:39:03 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:39:03 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Serial_Carroceria" id="36ED971C-FEC7-741D-B6C8-2270F204820A">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <defaultValue>NULL</defaultValue>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Serial_Motor" id="50EE60A6-C805-75F2-8EFC-0A346E7372C0">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <defaultValue>NULL</defaultValue>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="foto_chuto" id="5A84A0FF-304F-49D8-7000-3D98D6A27ED1">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <defaultValue>NULL</defaultValue>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Placal_Chuto" id="703EDC78-7048-0E2E-6ED0-CB46027A5D24">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Flota_ID_Flota" id="97AF6E29-97D1-01EB-06B3-17BCF64E7274">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:39:05 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:39:05 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Estatus_ID_Estatus" id="B43DE6E3-E04B-248D-D7AB-8B9554D4CDBD">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:47:47 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:47:47 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Ubicacion_ID_Ubicacion" id="B7A408B5-2570-228D-E807-0C20E7FC271D">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:47:45 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:47:45 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Marca_Chuto_ID_Marca" id="CC1DD785-76D9-63E3-C6E6-ED163166007E">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:39:01 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:39:01 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Observaciones" id="E94D1285-E239-60ED-B4F5-865F68730ED9">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:47:31 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:47:31 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Unidad_ID_Unidad" id="EC5C7382-3D1D-0E30-A6C8-5FC90B89887C">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:47:43 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:47:43 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Modelo" id="F1E59CD0-F85B-F000-CC5B-3D6CC556D671">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <defaultValue>NULL</defaultValue>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="Km_recorridos" id="FD82021D-2117-B896-D01E-06E8E983D1ED">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <defaultValue>NULL</defaultValue>
+      </ColumnProxy>
+   </columnProxies>
+   <foreignKeys>
+      <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Chuto_Estatus_FK" id="01F3E9E2-3650-0B5A-6818-8426E2E64F92">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:47:47 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:47:47 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ForeignKey>
+      <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Chuto_Flota_FK" id="2174F5C2-5DD3-4AEC-65AA-24B617DEC4C8">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:39:05 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:39:05 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ForeignKey>
+      <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Chuto_Condicion_Chuto_FK" id="31E4B5AD-00BD-C844-0F2D-B4A9FEAB9981">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:39:03 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:39:03 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ForeignKey>
+      <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Chuto_Marca_Chuto_FK" id="729D40E1-4EDF-3495-5AF8-0503A67649FC">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:39:01 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:39:01 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ForeignKey>
+      <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Chuto_Unidad_FK" id="8F912E24-0E9E-70AF-EB70-3C86CA38C2A7">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:47:43 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:47:43 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ForeignKey>
+      <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Chuto_Ubicacion_FK" id="9F774F7C-1097-3C7D-B6F6-32AA650B9739">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:47:45 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:47:45 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+      </ForeignKey>
+   </foreignKeys>
+   <primaryKeys>
+      <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="IFv2_PK" id="5BAEBB39-6358-44D3-7BB3-21AEA0BC12B4">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:12:14 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:12:14 UTC</changedTime>
+         <ownerDesignName>bd_gtr</ownerDesignName>
+         <indexSort>NO</indexSort>
+      </PrimaryKey>
+      <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Chuto_PK" id="811DEB2B-999C-20B3-ED1B-E9EE4E5884B6">
+         <createdBy>TEMPORAL</createdBy>
+         <createdTime>2013-05-08 13:24:55 UTC</createdTime>
+         <changedBy>TEMPORAL</changedBy>
+         <changedTime>2013-05-08 13:24:55 UTC</changedTime>
+         <ownerDesignName>jesus</ownerDesignName>
+         <indexSort>NO</indexSort>
+      </PrimaryKey>
+   </primaryKeys>
+</TableProxyOraclev11g>
